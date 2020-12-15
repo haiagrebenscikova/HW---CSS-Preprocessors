@@ -1,0 +1,27 @@
+body {
+  background-color: #333;
+}
+
+button {
+  width: 150px;
+  height: 150px;
+  font-size: 37.5px;
+  margin: 37.5px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d60000), color-stop(white), to(#d60000));
+  background-image: linear-gradient(#d60000, white, #d60000);
+  border: 6px solid #d60000;
+  color: black;
+  border-radius: 150px;
+  -webkit-box-shadow: 0 0 7.5px 6px #171717;
+          box-shadow: 0 0 7.5px 6px #171717;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(#d60000), to(white));
+  background-image: linear-gradient(white, #d60000, white);
+  border-color: red;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

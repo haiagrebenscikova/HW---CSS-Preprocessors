@@ -1,0 +1,24 @@
+$size:150px;
+$dark: #333;
+$light: red;
+body {
+    background-color: $dark;
+}
+button {
+    width: $size;
+    height: $size;
+    font-size: $size/4;
+    margin: $size/4;
+    background-image: linear-gradient( darken($light, 8%), lighten($light, 50%), darken($light, 8%));
+    border: $size/25 solid darken($light, 8%);
+    color: darken($dark, 100%);
+    border-radius: $size;
+    box-shadow: 0 0 $size/20 $size/25 darken($dark, 11%);
+    cursor: pointer;
+    outline: none;
+}
+button:hover {
+    background-image: linear-gradient( lighten($light, 50%), darken($light, 8%),  lighten($light, 50%));
+    border-color: $light;
+    color: lighten($dark, 80%);
+}
